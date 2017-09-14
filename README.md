@@ -4,6 +4,7 @@
 ##### 화면에 보이는 View는 움직이나 실제 객체는 원래 자리에 있음, 즉 껍데기만 움직임. 옵션값에 따라 제자리에 돌아올 수도, 옮긴 자리에 놔둘 수도 있음(하지만 여전히 실제 객체는 제자리에 있음)
 
 ### 1.1 구현방법 Step 1
+![그림](./local/img/capture.png)
 ##### 그림과 같이 res 폴더에 anim 폴더를 만들고 각 속성에 따라 파일을 만든다. 속성은 이동, 회전, 투명도, 크기 변화 등이 있는데 다음과 같은 태그 이름과 그 속성을 넣어준다. *참고로 xmlns:android="http://schemas.android.com/apk/res/android에는 android에 대한 값이 정의되어 있고 xmlns:tools="http://schemas.android.com/tools"에는 tool에 대한 값이 정의 되어 있다.*
 
 #### 1.1.1 Translate
